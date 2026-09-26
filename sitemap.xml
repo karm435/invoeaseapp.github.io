@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://invoeaseapp.com/</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://invoeaseapp.com/app-details.html</loc>
+    <lastmod>2026-09-26</lastmod>
   </url>
   <url>
     <loc>https://invoeaseapp.com/privacy-policy.html</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-26</lastmod>
   </url>
   <url>
     <loc>https://invoeaseapp.com/terms-of-use.html</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-09-26</lastmod>
   </url>
 </urlset>
