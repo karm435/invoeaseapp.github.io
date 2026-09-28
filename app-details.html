@@ -22,7 +22,7 @@
         {"@type":"ListItem","position":2,"name":"App details","item":"https://invoeaseapp.com/app-details.html"}]},
       {"@type":"MobileApplication","@id":"https://invoeaseapp.com/#app","name":"InvoEase: Invoice Maker & Quote","operatingSystem":"iOS, iPadOS","applicationCategory":"BusinessApplication","url":"https://invoeaseapp.com/","installUrl":"https://apps.apple.com/gb/app/invoice-maker-quote-invoease/id6464482594",
        "featureList":["Create invoices and quotes","Convert quotes to invoices in one tap","Works offline","VAT and GST tax settings","Multiple currencies","Overdue invoice reminders","Customizable invoice templates","iPhone and iPad support","Data stays on your device"],
-       "inLanguage":["en","ar","bn","bg","ca","hr","cs","da","nl","fi","fr","de","el","gu","he","hi","hu","id","it","ja","kn","kk","ko","lt","ms","ml","mr","nb","or","pl","pt","pa","ro","ru","zh-Hans","sk","sl","es","sv","ta","te","th","zh-Hant","tr","uk","ur","vi"],
+       "inLanguage":["en","en-GB","en-AU","en-IN","ar","bn","bg","ca","hr","cs","da","nl","fi","fr","fr-CA","de","el","gu","he","hi","hu","id","it","ja","kn","kk","ko","lt","ms","ml","mr","nb","or","pl","pt-BR","pt-PT","pa","pa-IN","ro","ru","zh-Hans","sk","sl","es","es-419","es-US","sv","ta","te","th","zh-Hant","zh-HK","tr","uk","ur","vi"],
        "publisher":{"@id":"https://invoeaseapp.com/#organization"}},
       {"@type":"FAQPage","mainEntity":[
         {"@type":"Question","name":"Is InvoEase available in multiple languages?","acceptedAnswer":{"@type":"Answer","text":"Yes. InvoEase is available in 47 languages, including English, Spanish, French, German, Arabic, Hindi, Japanese, Korean, Chinese and Portuguese. The app follows the language set on your iPhone or iPad."}},
@@ -73,7 +73,7 @@
             <dl>
                 <dt>Platforms</dt><dd>iPhone and iPad</dd>
                 <dt>Category</dt><dd>Business</dd>
-                <dt>Languages</dt><dd>47 languages (<a href="#languages">see the full list</a>)</dd>
+                <dt>Languages</dt><dd>47 languages and 56 regional versions (<a href="#languages">see the full list</a>)</dd>
                 <dt>Works offline</dt><dd>Yes, sync when you are back online</dd>
                 <dt>Taxes and currencies</dt><dd>VAT, GST and multiple currencies</dd>
                 <dt>Your data</dt><dd>Stays on your device (<a href="privacy-policy.html">privacy policy</a>)</dd>
@@ -99,14 +99,17 @@
             <p>Tradespeople, painters, cleaners, tutors, personal trainers, yoga instructors, massage therapists, craftspeople, event planners, makeup artists and any small business that needs to bill clients quickly.</p>
 
             <h2 id="languages">Supported languages</h2>
-            <p>InvoEase follows the language set on your iPhone or iPad. It is available in these 47 languages:</p>
+            <p>InvoEase follows the language set on your iPhone or iPad. It is available in 47 languages, with regional versions for English, French, Spanish, Portuguese, Chinese and Punjabi (56 localizations in total):</p>
             <div class="table-scroll">
                 <table>
                     <thead><tr><th scope="col">Language</th><th scope="col">Native name</th><th scope="col">Invoice</th><th scope="col">Quote</th></tr></thead>
                     <tbody>
-                        <tr><td>English</td><td lang="en">English</td><td lang="en">Invoice</td><td lang="en">Quote</td></tr>
+                        <tr><td>English</td><td lang="en">English</td><td lang="en">Invoice</td><td lang="en">Quote, Estimate</td></tr>
+                        <tr><td>English (United Kingdom)</td><td lang="en-GB">English (UK)</td><td lang="en-GB">Invoice</td><td lang="en-GB">Quote</td></tr>
+                        <tr><td>English (Australia)</td><td lang="en-AU">English (Australia)</td><td lang="en-AU">Invoice, Tax invoice</td><td lang="en-AU">Quote</td></tr>
+                        <tr><td>English (India)</td><td lang="en-IN">English (India)</td><td lang="en-IN">Invoice, Bill</td><td lang="en-IN">Quotation</td></tr>
                         <tr><td>Arabic</td><td lang="ar" dir="rtl">العربية</td><td lang="ar" dir="rtl">فاتورة</td><td lang="ar" dir="rtl">عرض سعر</td></tr>
-                        <tr><td>Bengali</td><td lang="bn">বাংলা</td><td lang="bn">চালান</td><td lang="bn">কোটেশন</td></tr>
+                        <tr><td>Bangla (Bengali)</td><td lang="bn">বাংলা</td><td lang="bn">চালান</td><td lang="bn">কোটেশন</td></tr>
                         <tr><td>Bulgarian</td><td lang="bg">Български</td><td lang="bg">Фактура</td><td lang="bg">Оферта</td></tr>
                         <tr><td>Catalan</td><td lang="ca">Català</td><td lang="ca">Factura</td><td lang="ca">Pressupost</td></tr>
                         <tr><td>Croatian</td><td lang="hr">Hrvatski</td><td lang="hr">Račun</td><td lang="hr">Ponuda</td></tr>
@@ -115,6 +118,7 @@
                         <tr><td>Dutch</td><td lang="nl">Nederlands</td><td lang="nl">Factuur</td><td lang="nl">Offerte</td></tr>
                         <tr><td>Finnish</td><td lang="fi">Suomi</td><td lang="fi">Lasku</td><td lang="fi">Tarjous</td></tr>
                         <tr><td>French</td><td lang="fr">Français</td><td lang="fr">Facture</td><td lang="fr">Devis</td></tr>
+                        <tr><td>French (Canada)</td><td lang="fr-CA">Français (Canada)</td><td lang="fr-CA">Facture</td><td lang="fr-CA">Soumission</td></tr>
                         <tr><td>German</td><td lang="de">Deutsch</td><td lang="de">Rechnung</td><td lang="de">Angebot</td></tr>
                         <tr><td>Greek</td><td lang="el">Ελληνικά</td><td lang="el">Τιμολόγιο</td><td lang="el">Προσφορά</td></tr>
                         <tr><td>Gujarati</td><td lang="gu">ગુજરાતી</td><td lang="gu">ઇન્વૉઇસ</td><td lang="gu">ક્વોટેશન</td></tr>
@@ -134,19 +138,24 @@
                         <tr><td>Norwegian Bokmål</td><td lang="nb">Norsk bokmål</td><td lang="nb">Faktura</td><td lang="nb">Tilbud</td></tr>
                         <tr><td>Odia (Oriya)</td><td lang="or">ଓଡ଼ିଆ</td><td lang="or">ଇନଭଏସ</td><td lang="or">କୋଟେସନ</td></tr>
                         <tr><td>Polish</td><td lang="pl">Polski</td><td lang="pl">Faktura</td><td lang="pl">Oferta</td></tr>
-                        <tr><td>Portuguese</td><td lang="pt">Português</td><td lang="pt">Fatura</td><td lang="pt">Orçamento</td></tr>
+                        <tr><td>Portuguese (Brazil)</td><td lang="pt-BR">Português (Brasil)</td><td lang="pt-BR">Fatura</td><td lang="pt-BR">Orçamento</td></tr>
+                        <tr><td>Portuguese (Portugal)</td><td lang="pt-PT">Português (Portugal)</td><td lang="pt-PT">Fatura</td><td lang="pt-PT">Orçamento</td></tr>
                         <tr><td>Punjabi</td><td lang="pa">ਪੰਜਾਬੀ</td><td lang="pa">ਇਨਵੌਇਸ</td><td lang="pa">ਕੋਟੇਸ਼ਨ</td></tr>
+                        <tr><td>Punjabi (India)</td><td lang="pa-IN">ਪੰਜਾਬੀ (ਭਾਰਤ)</td><td lang="pa-IN">ਇਨਵੌਇਸ</td><td lang="pa-IN">ਕੋਟੇਸ਼ਨ</td></tr>
                         <tr><td>Romanian</td><td lang="ro">Română</td><td lang="ro">Factură</td><td lang="ro">Ofertă</td></tr>
                         <tr><td>Russian</td><td lang="ru">Русский</td><td lang="ru">Счёт</td><td lang="ru">Коммерческое предложение</td></tr>
                         <tr><td>Simplified Chinese</td><td lang="zh-Hans">简体中文</td><td lang="zh-Hans">发票</td><td lang="zh-Hans">报价单</td></tr>
                         <tr><td>Slovak</td><td lang="sk">Slovenčina</td><td lang="sk">Faktúra</td><td lang="sk">Cenová ponuka</td></tr>
                         <tr><td>Slovenian</td><td lang="sl">Slovenščina</td><td lang="sl">Račun</td><td lang="sl">Ponudba</td></tr>
                         <tr><td>Spanish</td><td lang="es">Español</td><td lang="es">Factura</td><td lang="es">Presupuesto</td></tr>
+                        <tr><td>Spanish (Latin America)</td><td lang="es-419">Español (Latinoamérica)</td><td lang="es-419">Factura</td><td lang="es-419">Cotización</td></tr>
+                        <tr><td>Spanish (United States)</td><td lang="es-US">Español (Estados Unidos)</td><td lang="es-US">Factura</td><td lang="es-US">Cotización, Estimado</td></tr>
                         <tr><td>Swedish</td><td lang="sv">Svenska</td><td lang="sv">Faktura</td><td lang="sv">Offert</td></tr>
                         <tr><td>Tamil</td><td lang="ta">தமிழ்</td><td lang="ta">விலைப்பட்டியல்</td><td lang="ta">விலைப்புள்ளி</td></tr>
                         <tr><td>Telugu</td><td lang="te">తెలుగు</td><td lang="te">ఇన్‌వాయిస్</td><td lang="te">కొటేషన్</td></tr>
                         <tr><td>Thai</td><td lang="th">ไทย</td><td lang="th">ใบแจ้งหนี้</td><td lang="th">ใบเสนอราคา</td></tr>
                         <tr><td>Traditional Chinese</td><td lang="zh-Hant">繁體中文</td><td lang="zh-Hant">發票</td><td lang="zh-Hant">報價單</td></tr>
+                        <tr><td>Chinese (Hong Kong)</td><td lang="zh-HK">中文（香港）</td><td lang="zh-HK">發票</td><td lang="zh-HK">報價單</td></tr>
                         <tr><td>Turkish</td><td lang="tr">Türkçe</td><td lang="tr">Fatura</td><td lang="tr">Teklif</td></tr>
                         <tr><td>Ukrainian</td><td lang="uk">Українська</td><td lang="uk">Рахунок-фактура</td><td lang="uk">Комерційна пропозиція</td></tr>
                         <tr><td>Urdu</td><td lang="ur" dir="rtl">اردو</td><td lang="ur" dir="rtl">انوائس</td><td lang="ur" dir="rtl">کوٹیشن</td></tr>
